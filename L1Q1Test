@@ -3,18 +3,18 @@ import org.junit.Test;
 public class Watermelon {
     @Test
     public void test1() {
-        assertTrue(WaterMelon.isEvenParts(12) == True);
+        assertTrue(WaterMelon.hasEvenParts(12) == true);
     }
     @Test
     public void test2() {
-        assertTrue(WaterMelon.isEvenParts(6) == True);
+        assertTrue(WaterMelon.hasEvenParts(6) == true);
     }
     @Test
     public void test3() {
-        assertTrue(WaterMelon.isEvenParts(2) == False);
+        assertTrue(WaterMelon.hasEvenParts(2) == false);
     }
     @Test
     public void test4() {
-        assertTrue(WaterMelon.isEvenParts(11) == False);
+        assertTrue(WaterMelon.hasEvenParts(11) == false);
     }
 }
